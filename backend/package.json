@@ -1,0 +1,21 @@
+{
+  "name": "devRadar",
+  "version": "1.0.0",
+  "description": "Backend project of RocketSeat OmniStack week 10",
+  "main": "index.js",
+  "repository": "https://github.com/mucadlucca/devRadar",
+  "author": "Samuel de Lucca",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
